@@ -1,6 +1,9 @@
 //entrada
-let nombre = prompt ("Ingrese su nombre:");
+function solicitarNombre (){
+    let nombre = prompt ("Ingrese su nombre:");
 alert ("Bienvenido " + nombre);
+}
+
 let pais = prompt ( "De que país eres ?" );
 
 if ((pais === "Argentina") || (pais =="argentina")){

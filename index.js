@@ -28,11 +28,9 @@ const productos = [
 
 const carritoDeCompras = [];
 
-function mostrarProductosDisponibles(productos) [
+function mostrarProductosDisponibles(productos){
     let listaProductos = "" ; 
-    for (const iterator of object) {
-        
-    } (const producto of productos) {
+    for (const producto of productos) {
         listaProductos += `
         ID: ${producto.id}
         NOMBRE: ${producto.nombre}
@@ -40,7 +38,7 @@ function mostrarProductosDisponibles(productos) [
     
     }
     return listaProductos;
-]
+}
 
 function obtenerProductosPorID(productos,id) {
     return productos.find((producto)=> producto.id == id);
